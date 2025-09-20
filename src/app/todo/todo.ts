@@ -93,9 +93,12 @@ export class EditPopUp{
         @for (item of todos; track item.id) {
           <app-todo-task [task]="item" (toggle)="toggleTask($event)" (edit)="setEditing($event)" (remove)="removeTask($event)"></app-todo-task>
         }
+        @if (todos.length == 0){
+          <p class="w-full text-center text-white/50">Start by adding new tasks</p>
+        }
       </div>
       <div class="flex gap-2 p-4">
-        <input class="border border-white/30 focus-visible:outline-none p-2 rounded-lg grow" [(ngModel)]="input" (keyup.enter)="addTask()"/>
+        <input class="border border-white/30 focus-visible:outline-none p-2 rounded-lg grow placeholder:text-white/50" [(ngModel)]="input" (keyup.enter)="addTask()" placeholder="Add a new task.."/>
         <button class="p-2 bg-white text-black rounded-lg" (click)="addTask()">Add Task</button>
       </div>
     </div>

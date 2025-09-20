@@ -2,58 +2,25 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
 
-## Development server
+## Into
 
-To start a local development server, run:
+Very simple todo app, I mean making a todo app with a new tech is always the first step to learning something new.
 
-```bash
-ng serve
-```
+I did use some stuff I usually have in most of my other projects (vite or next):
+- TailwindCSS [link to angular docs](https://tailwindcss.com/docs/installation/framework-guides/angular)
+- Lucide React [just svgs because I got lazy](https://lucide.dev/icons/)
+- Angular itself :) [confusing docs but useful](https://angular.dev/overview)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Conclusion
 
-## Code scaffolding
+### Do I love it?
+No I still prefer react, the setup itself was annoying like google itself was asking for my data during project intialization, they really can't get enough lol.
+If anything it's not that hard it's somewhat similar to react, or nestjs in a way.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Will I use it in my perosnal projects?
+Hell nah
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Bye :D
+<div align="center">
+  <img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/09be1b45-75ea-4927-9c4d-892b9e38adc5" />
+</div>
